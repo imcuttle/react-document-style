@@ -22,7 +22,7 @@ const config = {
       react: 'React'
     }
   },
-  external: ['react', 'react-side-effect'],
+  external: ['react', 'react-side-effect', 'prop-types'],
   plugins: [
     babel({
       babelrc: false,
@@ -51,6 +51,7 @@ export default [
       ...config.output,
       file: 'lib/index.umd.js',
       format: 'umd',
+      name: 'ReactDocumentStyle'
     }
   }),
   Object.assign({}, config, {
@@ -65,6 +66,7 @@ export default [
       ...config.output,
       file: 'lib/index.umd.min.js',
       format: 'umd',
+      name: 'ReactDocumentStyle'
     },
     plugins: config.plugins.concat(uglify())
   })
