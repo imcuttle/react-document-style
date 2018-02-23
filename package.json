@@ -11,18 +11,22 @@
     "test:cover": "jest --coverage",
     "test:watch": "jest --watch"
   },
+  "files": [
+    "lib"
+  ],
   "unpack": "lib/index.umd.min.js",
   "jsdelivr": "lib/index.umd.min.js",
   "jsnext:main": "lib/index.es.js",
   "module": "lib/index.es.js",
   "main": "lib/index.js",
   "keywords": [
+    "imcuttle",
     "document",
     "react",
     "side-effect"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "imcuttle",
+  "license": "MIT",
   "dependencies": {
     "react-side-effect": "^1.1.5",
     "rollup-plugin-babel": "^3.0.3",
