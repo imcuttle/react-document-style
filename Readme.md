@@ -7,6 +7,9 @@ We could render style component either client or server side via [`react-side-ef
 [![NPM version](https://img.shields.io/npm/v/react-document-style.svg?style=flat-square)](https://www.npmjs.com/package/react-document-style)
 [![NPM Downloads](https://img.shields.io/npm/dm/react-document-style.svg?style=flat-square&maxAge=43200)](https://www.npmjs.com/package/react-document-style)
 
+- UMD
+unpak
+
 ## Usage
 
 The Component writing like here.
